@@ -1,10 +1,15 @@
 \pergunta{10. Considerando as estratégias para escolha da partição dinamicamente, conceitue as estratégias
 best-fit e worst-fit especificando prós e contras de cada uma.}
 
-A estratégia de best-fit busca um espaço mais próximo do tamanho do processo, neste
-processo, a lista de áreas livres é ordenada por tamanho para assim diminuir o tempo
-de busca por uma área desocupada.
-Se o espaço encontrado for do tamanho do processo, ótimo, senão pode causar fragmentação.
-A estratégia de worst-fit busca deixar livre o maior espaço possível para que um
-número maior de programas use a memória. Causa menos fragmentação que a técnica
-best-fit. \\
+O alocador com estratégia \textsl{best-fit} procura o menor espaço de memória
+não alocada, onde caiba o processo \cite{BowieMemoryAllocation}. Nesta
+estratégia, pode haver uma lista ordenada por tamanho de blocos livres para aumentar
+a eficiência da busca.
+
+Na estratégia \textsl{worst-fit}, o gerenciador de memória coloca o processo
+no maior bloco de memória não alocado.  A ideia nesta estratégia é que após
+a alocação deste processo, irá sobrar a maior quantidade memória após o
+processo, aumentando a possibilidade de, comparado ao \textsl{best-fit}, 
+outro processo poder usar o espaço restante \cite{BowieMemoryAllocation}.
+Assim, o \textsl{worst-fit} tende a causar menos fragmentações.
+
