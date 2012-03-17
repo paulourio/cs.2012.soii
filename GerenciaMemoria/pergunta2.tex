@@ -3,5 +3,11 @@ que utilize um sistema operacional de 10Kb que implemente alocação contígua d
 memória. Qual a taxa de subutilização da memória principal para um programa que 
 ocupe 20Kb de memória?}
 
-10 KB.
+Assumindo que o sistema operacional ocupará os 10 KB ao início da memória e os
+outros 30 KB restantes formem um único bloco contíguo.
+Quando o processo que necessita de 20KB de memória for iniciado,  será alocado
+o único bloco contíguo de memória, com tamanho 30KB, por ser grande o 
+suficiente para acomodá-lo na memória.  Haverá \textbf{10 KB} não utilizados
+neste bloco.  Esse espaço perdido é chamado de fragmentação interna 
+\cite{ContiguousTechniques}.
 
