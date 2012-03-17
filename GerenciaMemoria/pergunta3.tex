@@ -5,10 +5,11 @@ independentes, cada um com 10KB,20KB e 30KB. Como o programa poderia ser executa
 utilizando-se apenas a técnica de overlay?}
 
 O sistema operacional será alocado no início da memória principal, deixando
-50 KB para programas em \textsl{userspace} utilizarem.  Overlay é o processo
-de transferir um bloco de código de programa ou dados para a memória interna,
+50 KB para programas em \textsl{userspace} utilizarem.  \textsl{Overlay} é o 
+processo de transferir um bloco de código de programa ou dados para a memória interna,
 substituindo pelo bloco atual \cite{OxfordDictionary}.  Os blocos independentes
-serão colocados na memória, um por vez para serem utilizados.  A memória
+serão colocados na memória, no espaço dedicado ao \textsl{overlay}, um por vez 
+para serem utilizados.  A memória
 ficará organizada de acordo com a Figura \ref{OverlayPDF}.  O módulo principal
 é encarregado de executar os \textsl{overlays}.
 
