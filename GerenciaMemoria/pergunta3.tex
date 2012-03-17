@@ -1,8 +1,18 @@
 \pergunta{3. Suponha um sistema computacional com 64Kb de memória principal e que utilize um
-sistemaoperacional de 14Kb que implemente alocação contígua de memória. Considere também
-um programade 90Kb, formado por um módulo principal de 20Kb e três módulos
+sistema operacional de 14Kb que implemente alocação contígua de memória. Considere também
+um programa de 90Kb, formado por um módulo principal de 20Kb e três módulos
 independentes, cada um com 10Kb,20Kb e 30Kb. Como o programa poderia ser executado
 utilizando-se apenas a técnica de overlay?}
+\\ \\
+ 90kb -> programa;\\
+ 10, 20 e 30 kb módulos.\\ 
+ 64kb  -> computador;\\
+-14kb  -> memória utilizada pelo sistema operacional;\\
+------\\
+ 50kb  livres;\\
+-20kb  ->modulo principal do programa;\\
+------\\
+=30kb livres\\
+-30kb overlay, já que o overlay possui o mesmo tamanho do maior módulo do programa.\\
 
-
-
+Os módulos serão executados na área de overlay.\\
