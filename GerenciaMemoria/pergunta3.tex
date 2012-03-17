@@ -1,18 +1,20 @@
 \pergunta{3. Suponha um sistema computacional com 64KB de memória principal e que utilize um
 sistema operacional de 14KB que implemente alocação contígua de memória. Considere também
-um programa de 90KB, formado por um módulo principal de 20KB e três módulos
+um programa de 80KB, formado por um módulo principal de 20KB e três módulos
 independentes, cada um com 10KB,20KB e 30KB. Como o programa poderia ser executado
 utilizando-se apenas a técnica de overlay?}
-\\ \\
- 90KB $\rightarrow$ programa;\\
- 10, 20 e 30 KB módulos.\\ 
- 64KB  $\rightarrow$ computador;\\
--14KB  $\rightarrow$ memória utilizada pelo sistema operacional;\\
-------\\
- 50KB  livres;\\
--20KB  $\rightarrow$ modulo principal do programa;\\
-------\\
-=30KB livres\\
--30KB overlay, já que o overlay possui o mesmo tamanho do maior módulo do programa.\\
+\\
+O sistema operacional será alocado no início da memória principal, deixando
+50 KB para programas em \textsl{userspace} utilizarem.  Overlay é o processo
+de transferir um bloco de código de programa ou dados para a memória interna,
+substituindo pelo bloco atual \cite{OxfordDictionary}.  Os blocos independentes
+serão colocados na memória, um por vez para serem utilizados.  A memória
+ficará organizada de acordo com a Figura \ref{OverlayPDF}.  O módulo principal
+é encarregado de executar os \textsl{overlays}.
 
-Os módulos serão executados na área de overlay.\\
+\begin{figure}[!ht]
+  \centering
+	\includegraphics[scale=1]{img/overlay.pdf}
+  \caption{Estado da memória principal \label{OverlayPDF}}
+\end{figure}
+

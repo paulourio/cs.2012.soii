@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="351.10001"
+   height="263.34"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="New document 1">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend"
+       style="overflow:visible">
+      <path
+         id="path4147"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend"
+       style="overflow:visible">
+      <path
+         id="path4123"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2"
+     inkscape:cx="162.51561"
+     inkscape:cy="117.82567"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1440"
+     inkscape:window-height="816"
+     inkscape:window-x="0"
+     inkscape:window-y="33"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3755"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-4.5366821,-785.60488)">
+    <rect
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1.00937474px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect2985"
+       width="108.82308"
+       height="198.99063"
+       x="40.037872"
+       y="803.11688" />
+    <rect
+       style="fill:#d5e5ff;stroke:#000000;stroke-width:0.99990624;stroke-opacity:1"
+       id="rect3971"
+       width="108.92178"
+       height="94.983849"
+       x="39.98642"
+       y="907.29968" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.9974969px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 29.5332,803.11218 0,199.00002"
+       id="path3757"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 24.5332,803.11218 10,0"
+       id="path3759"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 24.5332,1002.1122 10,0"
+       id="path3761"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+       x="6.2085571"
+       y="897.26794"
+       id="text3763"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3765"
+         x="6.2085571"
+         y="897.26794">64 KB</tspan></text>
+    <rect
+       style="fill:#e5ff80;stroke:#000000;stroke-width:0.9677735;stroke-opacity:1"
+       id="rect3959"
+       width="108.83987"
+       height="61.526962"
+       x="40.064545"
+       y="845.86432" />
+    <rect
+       style="fill:#ffe680;stroke:#000000;stroke-width:0.75203902;stroke-opacity:1"
+       id="rect3767"
+       width="109.15839"
+       height="42.744228"
+       x="39.909714"
+       y="803.00397" />
+    <text
+       xml:space="preserve"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+       x="95.039642"
+       y="822.22363"
+       id="text3949"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="95.039642"
+         y="822.22363"
+         id="tspan3953">Sistema Operacional</tspan><tspan
+         sodipodi:role="line"
+         x="95.039642"
+         y="832.22363"
+         id="tspan3957">14 KB</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+       x="95"
+       y="875.36218"
+       id="text3961"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="95"
+         y="875.36218"
+         id="tspan3965">Módulo principal</tspan><tspan
+         sodipodi:role="line"
+         x="95"
+         y="885.36218"
+         id="tspan3967">20 KB</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+       x="94.533203"
+       y="953.11218"
+       id="text3973"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3975"
+         x="94.533203"
+         y="953.11218">Área de <tspan
+   style="font-style:italic;text-align:center;text-anchor:middle;-inkscape-font-specification:Trebuchet MS Italic"
+   id="tspan3977">Overlay</tspan></tspan><tspan
+         sodipodi:role="line"
+         x="94.533203"
+         y="963.11218"
+         id="tspan3979">30 KB</tspan></text>
+    <rect
+       style="fill:#afe9dd;stroke:#000000;stroke-width:1.1810267;stroke-opacity:1"
+       id="rect3984"
+       width="108.99999"
+       height="245.69374"
+       x="199"
+       y="802.36218" />
+    <text
+       xml:space="preserve"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+       x="60.5"
+       y="795.86218"
+       id="text3986"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3988"
+         x="60.5"
+         y="795.86218">Memória Principal</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+       x="231"
+       y="794.36218"
+       id="text3990"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3992"
+         x="231"
+         y="794.36218">Programa 1</tspan></text>
+    <rect
+       style="fill:#e5ff80;stroke:#000000;stroke-width:0.9677735;stroke-opacity:1"
+       id="rect3959-7"
+       width="108.83987"
+       height="61.526962"
+       x="198.86328"
+       y="802.22546" />
+    <text
+       xml:space="preserve"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+       x="253.79874"
+       y="831.72333"
+       id="text3961-0"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="253.79874"
+         y="831.72333"
+         id="tspan3965-6">Módulo principal</tspan><tspan
+         sodipodi:role="line"
+         x="253.79874"
+         y="841.72333"
+         id="tspan3967-3">20 KB</tspan></text>
+    <rect
+       style="fill:#d5f6ff;stroke:#000000;stroke-width:1.05161965;stroke-opacity:1"
+       id="rect4113"
+       width="108.94838"
+       height="30.19838"
+       x="198.89819"
+       y="863.78485" />
+    <text
+       xml:space="preserve"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+       x="254"
+       y="878.36218"
+       id="text3961-0-1"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="254"
+         y="878.36218"
+         id="tspan3965-6-9">Módulo independente</tspan><tspan
+         sodipodi:role="line"
+         x="254"
+         y="888.36218"
+         id="tspan3967-3-9">10 KB</tspan></text>
+    <rect
+       style="fill:#aaeeff;stroke:#000000;stroke-width:0.9677735;stroke-opacity:1"
+       id="rect3959-7-6-5"
+       width="108.83987"
+       height="61.526962"
+       x="198.85275"
+       y="893.9303" />
+    <text
+       xml:space="preserve"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+       x="254"
+       y="924.36218"
+       id="text3961-0-1-2"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="254"
+         y="924.36218"
+         id="tspan3965-6-9-2">Módulo independente</tspan><tspan
+         sodipodi:role="line"
+         x="254"
+         y="934.36218"
+         id="tspan3967-3-9-4">20 KB</tspan></text>
+    <rect
+       style="fill:#80e5ff;stroke:#000000;stroke-width:1.03942585;stroke-opacity:1"
+       id="rect4075"
+       width="108.96057"
+       height="92.710571"
+       x="198.89076"
+       y="955.48816" />
+    <text
+       xml:space="preserve"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+       x="253.3125"
+       y="998.86218"
+       id="text4077"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4079"
+         x="253.3125"
+         y="998.86218">Módulo indepentente</tspan><tspan
+         sodipodi:role="line"
+         x="253.3125"
+         y="1008.8622"
+         id="tspan4081">30 KB</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.11186779px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 326.5332,801.11218 0,247.25002"
+       id="path3757-5"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 321.5332,801.11218 10,0"
+       id="path3759-4"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 322.00552,1048.4449 10,0"
+       id="path3761-0"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+       x="334"
+       y="921.36218"
+       id="text3763-4"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3765-5"
+         x="334"
+         y="921.36218">80 KB</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.00612473px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="m 198.45927,832.92902 c -33.16937,-0.38321 -7.1796,51.49616 -44.77118,46.63364"
+       id="path4747"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="m 193.5,92.839996 c -28.08285,0.13186 -13.94071,51.649684 -44,50.500004"
+       id="path5510"
+       inkscape:connector-curvature="0"
+       transform="translate(4.5366821,785.60488)"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="m 194,138.84 c -24.34154,-0.11841 -16.90836,24.56294 -44.5,25"
+       id="path5696"
+       inkscape:connector-curvature="0"
+       transform="translate(4.5366821,785.60488)"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="m 194,219.34 c -22.03141,1.92445 -10.44295,-41.7651 -44.5,-40.5"
+       id="path6066"
+       inkscape:connector-curvature="0"
+       transform="translate(4.5366821,785.60488)"
+       sodipodi:nodetypes="cc" />
+  </g>
+</svg>
