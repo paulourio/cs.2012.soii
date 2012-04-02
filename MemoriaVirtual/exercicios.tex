@@ -1,0 +1,147 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage[T1]{fontenc}
+
+\usepackage{times}
+
+\title{Exercícios sobre Gerência de Memória Virtual e Paginação.}
+\author{Universidade Estadual do Centro-Oeste (UNICENTRO)\\
+        Departamento de Ciência da Computação (DECOMP)\\
+        Sistemas Operacionais II \\
+        Professor Andres Jessé \\
+	Paulo R. Urio }
+
+\newcommand{\pergunta}[1]{\noindent \textbf{#1}}
+
+\begin{document}
+
+\maketitle
+
+\pergunta{1. Explique a diferença entre endereços físicos e virtuais.}
+
+Endereço físico, também chamado de endereço real e binário, é um número
+que representa uma posição específica no dispositivo de memória.
+
+O endereço virtual, também chamado de endereço lógico,  é um número que 
+não reflete no valor real da memória e sim o valor usado para o mecanismo 
+de mapeamento.
+
+\pergunta {2. Explique a diferença entre fragmentação interna e externa. Em 
+quais situações elas podem ocorrer?}
+
+A fragmentação interna ocorre quando os programas não preenchem as partições 
+onde são carregados, ocorre com técnicas de alocação absoluta, relocável
+e contígua. A fragmentação externa ocorre em técnicas de alocação dinâmica
+quando programas são terminados sem serem completamente liberados da memó-
+ria, deixando cada vez espaços menores na memória, assim novos programas não
+podem ser executados.
+
+\pergunta{3. Explique o funcionamento do algoritmo ``worst-fit''. Qual a 
+vantagem de utilizá-lo visto que ele sempre escolhe o ``pior'' caso?}
+
+No worst-fit, o gerenciador de memória coloca o processo no maior
+bloco de memória não alocado. A ideia nesta estratégia é que após a alocação
+deste processo, irá sobrar a maior quantidade memória após o processo, 
+aumentando a possibilidade de, comparado ao best-fit, outro processo poder 
+usar o espaço restante.  O worst-fit tende a causar menos fragmentações.
+
+\pergunta{4. Dadas particões de memória de 100K, 500K, 200K, 300K e 600K (nesta 
+ordem), como cada um dos algoritmos ``first-fit'', ``best-fit'' e ``worst-fit''
+colocaria os processos de 212K, 417K, 112K e 426K (nesta ordem)? Qual algoritmo 
+faz uso mais eficiente da memória?}
+
+Sendo: P1 = 212K, P2 = 417K, P3 = 112K e P4 = 426K.
+
+\begin{table}[!ht]
+\begin{center}
+	\begin{tabular}{| c | c |}
+	\hline \textbf{Partição} & \textbf{Processos} \\ \hline
+	{\ttfamily 100K} &  \\ \hline
+	{\ttfamily 500K} & {\ttfamily P1 e P3} \\ \hline
+	{\ttfamily 200K} & \\ \hline
+	{\ttfamily 300K} & {\ttfamily } \\ \hline
+	{\ttfamily 600K} & {\ttfamily P2} \\ \hline
+	\end{tabular}
+	\caption{\textsl{First-fit}.}
+\end{center}
+\end{table}
+
+\begin{table}[!ht]
+\begin{center}
+	\begin{tabular}{| c | c |}
+	\hline \textbf{Partição} & \textbf{Processos} \\ \hline
+	{\ttfamily 100K} &  \\ \hline
+	{\ttfamily 500K} & {\ttfamily P2} \\ \hline
+	{\ttfamily 200K} & {\ttfamily P3} \\ \hline
+	{\ttfamily 300K} & {\ttfamily P1} \\ \hline
+	{\ttfamily 600K} & {\ttfamily P4} \\ \hline
+	\end{tabular}
+	\caption{\textsl{Best-fit}.}
+\end{center}
+\end{table}
+
+\begin{table}[!ht]
+\begin{center}
+	\begin{tabular}{| c | c |}
+	\hline \textbf{Partição} & \textbf{Processos} \\ \hline
+	{\ttfamily 100K} &  \\ \hline
+	{\ttfamily 500K} & {\ttfamily P2} \\ \hline
+	{\ttfamily 200K} & \\ \hline
+	{\ttfamily 300K} & {\ttfamily } \\ \hline
+	{\ttfamily 600K} & {\ttfamily P1 e P3} \\ \hline
+	\end{tabular}
+	\caption{\textsl{Worst-fit}.}
+\end{center}
+\end{table}
+
+\pergunta{5. Por que os tamanhos das páginas são sempre potências de 2?}
+
+Por questões de velocidade.  Para converter o índice de um item em um
+\textsl{array} no endereço, é preciso apensar usar operações de 
+deslocamento do que multiplicação.  Por isso, um \textsl{byte} tem 8 bits,
+que influencia diretamente no modo em como a memória é projetada e no
+tamanho das páginas.
+
+\pergunta {6. Explique a diferença entre busca de páginas por demanda e busca 
+antecipada. Cite duas estratégias de busca antecipada.}
+
+Na \textbf{paginação por demanda} as páginas dos processos são transferidas para
+a memória principal somente	quando são necessárias.
+
+Na \textbf{busca antecipada} o sistema carrega para a memória principal, além
+da página necessária, outras páginas que podem ou não ser usadas durante o 
+processamento, utilizando assim o princípio da localidade espacial.
+
+\pergunta {7. Por que, em um sistema com paginação, um processo não pode acessar
+ áreas de memória que não lhe pertence?}
+
+Para evitar que um bug dentro de um processo afete outro processo, ou até mesmo
+o próprio sistema operacional.
+
+\pergunta{8. Em que circunstâncias ocorre uma falha de página? Descreva as ações
+tomadas pelo sistema quando uma falha de página ocorre.}
+
+Um \textsl{page fault} ocorre quando um processo tenta acessar um endreço que 
+não está na memória principal, no momento em que ocorre, o sistema transfere a 
+página da memória secundária para a memória principal.
+
+\pergunta{9. Quando a memória virtual é implementada em um sistema de 
+computacão, há
+certos custos associados com a técnica e certos benefícios. Liste os custos e os
+benefícios. É possível que os custos excedam os benefícios? Se sim, quais
+medidas podem ser tomadas para assegurar que isto não aconteca?}
+
+
+\pergunta{10. Se usarmos um algoritmo de substituição de páginas FIFO com 4 
+frames e 8 páginas, quantos page faults vão acontecer na seguinte sequência de 
+referências: 0 1 7 2 3 2 7 1 0 3 se os 4 frames estão inicialmente vazios.}
+
+\pergunta{11. Repita o problema anterior usando LRU.}
+
+\pergunta{12. No algoritmo FIFO circular, quais páginas seriam liberadas nas 
+situações A e B?}
+
+
+\end{document}
+
